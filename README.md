@@ -1,6 +1,6 @@
 # Knowledge Base Contradiction and Redundancy Detection
 
-This project implements a system to build and validate a knowledge base by detecting contradictions and redundancies. It is based on the [DIALFACT framework](https://aclanthology.org/2021.emnlp-main.604/) for evidence retrieval and NLI validation.
+This project implements a system to build and validate a knowledge base by detecting contradictions and redundancies. It is based on the [DIALFACT framework](https://aclanthology.org/2022.acl-long.263/) for evidence retrieval and NLI validation.
 
 ## Features
 
@@ -33,4 +33,5 @@ All steps are contained within the `hard_RI.ipynb` notebook.
     * Detect and print redundancies.
     * Detect and print NLI-validated contradictions.
     * Generate and print a synthetic contradiction.
+
     * Save the final graph to `output/knowledge_graph.json`.
